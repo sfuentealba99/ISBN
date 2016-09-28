@@ -3,25 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		01C436691D96C91300BB1480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C436681D96C91300BB1480 /* AppDelegate.swift */; };
 		01C4366B1D96C91400BB1480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C4366A1D96C91400BB1480 /* ViewController.swift */; };
-		01C4366E1D96C91600BB1480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C4366C1D96C91600BB1480 /* Main.storyboard */; };
 		01C436701D96C91D00BB1480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C4366F1D96C91D00BB1480 /* Assets.xcassets */; };
 		01C436731D96C91D00BB1480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C436711D96C91D00BB1480 /* LaunchScreen.storyboard */; };
+		01C4367B1D96D40F00BB1480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C4367A1D96D40F00BB1480 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01C436651D96C90F00BB1480 /* BucadorISBN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucadorISBN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C436681D96C91300BB1480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01C4366A1D96C91400BB1480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		01C4366D1D96C91600BB1480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01C4366F1D96C91D00BB1480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01C436721D96C91D00BB1480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01C436741D96C91F00BB1480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C4367A1D96D40F00BB1480 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			children = (
 				01C436681D96C91300BB1480 /* AppDelegate.swift */,
 				01C4366A1D96C91400BB1480 /* ViewController.swift */,
-				01C4366C1D96C91600BB1480 /* Main.storyboard */,
+				01C4367A1D96D40F00BB1480 /* Main.storyboard */,
 				01C4366F1D96C91D00BB1480 /* Assets.xcassets */,
 				01C436711D96C91D00BB1480 /* LaunchScreen.storyboard */,
 				01C436741D96C91F00BB1480 /* Info.plist */,
@@ -101,7 +101,7 @@
 				};
 			};
 			buildConfigurationList = 01C436601D96C90F00BB1480 /* Build configuration list for PBXProject "BucadorISBN" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,7 +125,7 @@
 			files = (
 				01C436731D96C91D00BB1480 /* LaunchScreen.storyboard in Resources */,
 				01C436701D96C91D00BB1480 /* Assets.xcassets in Resources */,
-				01C4366E1D96C91600BB1480 /* Main.storyboard in Resources */,
+				01C4367B1D96D40F00BB1480 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +144,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		01C4366C1D96C91600BB1480 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01C4366D1D96C91600BB1480 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		01C436711D96C91D00BB1480 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -260,11 +252,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 527WT7D8R4;
 				INFOPLIST_FILE = BucadorISBN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BucadorISBN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -272,11 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 527WT7D8R4;
 				INFOPLIST_FILE = BucadorISBN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BucadorISBN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -299,6 +295,7 @@
 				01C436791D96C91F00BB1480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
