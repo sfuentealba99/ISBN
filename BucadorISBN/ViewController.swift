@@ -22,7 +22,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
         
         //Aunque se indique que le clear button este visible siempre no aparecerá si el campo de texto esta vacío ya que no hay nada que borrar.
         isbnTextField.clearButtonMode = UITextFieldViewMode.always
-        isbnTextField.text = "Que ISBN deseas buscar?"
+        isbnTextField.text = "¿Que ISBN deseas buscar?"
         
     }
     
